@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lexcon forms: Sign up</title>
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <!-- Font family -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>        
+        <section class="section-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-form--content">
+                            <h1>Learn how to code by watching others</h1>
+                            <p>See how experienced developers solve problems in real-time. <br> Watching scripted
+                                tutorials is great, but understanding how <br> developers think is invaluable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="heading"><b>Try it for 7 days</b> then <br> $20/mo. thereafter</div>
+                        <form action="" get="index2.html" class="form">
+                            <div class="form__component">                                
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="SVG">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                                        <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                                        <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                                    </g>
+                                </svg>
+                                <input type="text" placeholder="First Name" id="firstname" 
+                                    class="form__component--input" />
+                                <label for="firstname" class="form__label">First Name cannot be empty</label>
+                            </div>
+
+                            <div class="form__component">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="SVG active">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                                        <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                                        <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                                    </g>
+                                </svg>
+                                <input type="text" placeholder="Last Name" id="lastname" 
+                                    class="form__component--input" />
+                                <label for="lastname" class="form__label">Last Name cannot be empty</label>
+                            </div>
+
+                            <div class="form__component">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="SVG active">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                                        <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                                        <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                                    </g>
+                                </svg>
+                                <input type="email" placeholder="Email Address" id="email" 
+                                    class="form__component--input" />
+                                <label for="email" class="form__label">Look like this is not an email</label>
+                            </div>
+
+                            <div class="form__component">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="SVG active">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                                        <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                                        <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                                    </g>
+                                </svg>
+                                <input type="password" placeholder="Password minimum of 8 characters" id="pass" 
+                                    class="form__component--input" maxlength="8" />
+                                <label for="pass" class="form__label">Password cannot be empty</label>
+                            </div>
+
+                            <div class="form__component">
+                                <input type="submit" value="Claim your free trial"
+                                    class="form__component--input-btn">
+                                <p>By clicking on the button, you are agreeing to our, <a href="#">Terms and
+                                        Services</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="boostrap/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
